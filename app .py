@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Modeli yükle
-model = joblib.load("real_house_price_model.pkl")
+model = joblib.load("house_price_final_model.pkl")
 
 st.set_page_config(page_title="🏡 Realistic House Price Predictor", layout="centered")
 st.title("🏡 House Price Prediction App")
