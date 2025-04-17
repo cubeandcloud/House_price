@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Modeli yükle
-model = joblib.load("house_price_model.pkl")
+model = joblib.load("clean_house_price_model.pkl")
 
 st.title("🏡 House Price Prediction App")
 st.write("Enter the property details below to estimate the house price:")
